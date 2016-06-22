@@ -1,0 +1,60 @@
+<!document html>
+<html>
+<head>
+<link rel="stylesheet" href="../../assets/css/style.css">
+</head>
+<body>
+
+<div class="loginContainer" ng-app="search_filters">
+<form class="search_filtersform" >
+<div class=loginHeader>My Prayer Details</div>
+  <table style="width:100%">
+    <tr align="center">
+       <td>Start Date</td>
+      <td>
+        <input class="textBox" type="date"  ng-model="StartDate" required>       </td>
+    <td>End Date</td>
+    <td>
+      <input class="textBox" type="date"  ng-model="EndDate" required>
+    </td>
+    <td colspan="2" align="center">
+      <input type="button" value="Search!!!">
+    </td>
+  </tr>
+  </table>
+</form>
+
+<div id="results">
+  <table style="width:100%">
+   <tr><td class="loginFooter" colspan="6"></td></tr>
+   <tr>
+    <th class="detailsHeader">            <b>Date</b></th>
+    <th class="detailsHeader">Time1</th>
+    <th class="detailsHeader">Time2</th>
+     <th class="detailsHeader">Time3</th>
+      <th class="detailsHeader">Time4</th>
+       <th class="detailsHeader">Time5</th>
+  </tr>
+  <tr align="center">
+    <td>01-06-2016</td>
+    <td>Yes</td>
+    <td>No</td>
+    <td>Yes</td>
+    <td>No</td>
+     <td>Yes</td>
+  </tr>
+  <tr align="center">
+   <td>02-06-2016</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>Yes</td>
+    <td>No</td>
+     <td>Yes</td>
+  </tr>
+  </table>
+</div>
+</div>
+
+
+</body>
+</html>
